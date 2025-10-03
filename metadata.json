@@ -1,0 +1,8 @@
+{
+  "name": "Personal Meeting Assistant",
+  "description": "Experience the future of meetings with your Personal Meeting Assistant. Get real-time transcription, insights, summaries, and sentiment analysis with a sleek, futuristic UI, powered by the Gemini API.",
+  "requestFramePermissions": [
+    "microphone",
+    "display-capture"
+  ]
+}

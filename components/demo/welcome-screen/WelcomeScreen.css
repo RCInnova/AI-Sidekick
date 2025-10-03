@@ -1,0 +1,85 @@
+.welcome-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: var(--gray-500);
+}
+
+.welcome-content {
+  max-width: 600px;
+}
+
+.welcome-icon {
+  font-size: 60px;
+  color: var(--gray-700);
+  margin-bottom: 20px;
+  font-family: 'Material Symbols Outlined';
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.welcome-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.phone-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.phone-input-container .icon {
+  position: absolute;
+  left: 15px;
+  color: var(--text-secondary);
+  font-size: 24px;
+}
+
+.phone-input {
+  width: 100%;
+  padding: 14px 20px 14px 50px;
+  border-radius: 28px;
+  border: 1px solid var(--border-primary);
+  background-color: var(--background-ui-element);
+  color: var(--text-primary);
+  font-size: 16px;
+  font-family: var(--font-family-mono);
+  transition: all 0.2s;
+}
+
+.phone-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-blue-active-bg);
+}
+
+.phone-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.example-prompts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.prompt {
+  background-color: var(--Neutral-15);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: var(--gray-200);
+}
